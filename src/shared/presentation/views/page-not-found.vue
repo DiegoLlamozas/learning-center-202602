@@ -16,7 +16,7 @@ const unavailableRoute = route.path;
     <div class="flex flex-column gap-3">
       <h1 class="text-4xl font-bold text-color">{{t('page-not-found.title')}}</h1>
 
-      <p class="m-0 line-height-3 text-color-secondary">{{t('page-not-found.content', { 'unavailable-content':  unavailableRoute})}}</p>
+      <p class="m-0 line-height-3 text-color-secondary">{{t('page-not-found.content', { 'unavailable-path':  unavailableRoute})}}</p>
       <router-link to="/home" class="text-primary font-medium">
         {{t('page-not-found.go-home')}}
       </router-link>
